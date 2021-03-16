@@ -22,6 +22,8 @@ header{
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-direction: column;
   align-items: center
 }
 
@@ -90,7 +92,6 @@ header{
    animation-name: logo_grow;
    animation-duration: 15s;
    animation-timing-function: linear;
- 
 }
 
 /*Keyframes for animation*/
@@ -128,7 +129,9 @@ header{
   /*Requirement 10*/
   .nav_links{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
+    flex-wrap: wrap;
     /* align-items: center; */
   }
 
@@ -161,8 +164,10 @@ header{
   }
   /*Requirement 15*/
   .nav_links{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    
   }
   /*Requirement 16*/
   .price{
