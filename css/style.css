@@ -89,6 +89,7 @@ header{
    /*Your code here.*/
    width: 420px;
    opacity: 1;
+   -webkit-animation:logo_grow;
    animation-name: logo_grow;
    animation-duration: 15s;
    animation-timing-function: linear;
