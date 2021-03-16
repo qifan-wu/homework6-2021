@@ -115,7 +115,7 @@ header{
     width: 420px;
     opacity: 1;
   }
-} 
+}
 
 @media screen and (min-width: 850px){
 
@@ -127,6 +127,13 @@ header{
   }
 
   /*Requirement 10*/
+  .nav_links{
+    /*Your code here again.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .nav_links{
     display: flex;
     flex-direction: row;
